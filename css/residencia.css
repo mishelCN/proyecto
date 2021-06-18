@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#residencia {
+	display: flex;
+	position: relative;
+	background: #143254;
+	color: #ffffff;
+	padding: 20px;
+}
+
+#residencia .contenedor .izquierda {
+	position: absolute;
+	top: 50%;
+	width: 40%;
+	left: 25%;
+	text-align: justify;
+	transform: translateX(-50%) translateY(-50%);
+}
+.izquierda h4 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.izquierda p {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+#residencia .contenedor .izquierda a{
+	font-size: 20px;
+	border: 3px solid #ffffff; 
+	text-decoration: none;
+	color: #dd0000;
+	border-radius: 30px ;
+	padding: 15px;
+}
+.izquierda a:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+#residencia .contenedor .derecha img{
+	width: 50%;
+	height: 70vh;
+	
+}
+#residencia .contenedor .derecha{
+	text-align: right;
+}

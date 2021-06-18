@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#residencias{
+	position: relative;
+	background: #143254;
+	color: #ffffff;
+	text-align: center;
+	position: 20px;
+}
+
